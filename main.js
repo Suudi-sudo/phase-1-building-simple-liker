@@ -2,8 +2,11 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Your JavaScript code goes here!
+// //code here
 
+
+const moda1 = document.getElementById('moda1');
+expect(moda1).to.not.equal(null);
 
 
 
@@ -23,3 +26,5 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+
+
